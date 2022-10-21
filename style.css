@@ -1,7 +1,16 @@
-container{
-height: 1850px;
+header{
+    display:flex;
 }
-.redLine{
-    width: 10px;
-    color:red;
+header .nav{
+    justify-content: center;
+}
+
+.preFooter{
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+}
+
+footer{
+    height: 78px;
 }
