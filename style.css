@@ -9,8 +9,33 @@ header .nav{
     padding: 20px 0px 40px 0px;
     background: #3b3b3b;
     border-top: 5px solid #ed564b;
+    
 }
+.preFooter a{
+    text-decoration: none;
+}
+.footerLists{
+    list-style: none;
+    color:#828282
+    
+}
+.footerLists a{
+    color:#828282;
+    
+}
+.footerLists a:hover{
+    color:#fff;
+}
+.footertext{
+    color:#828282;
+}
+
 
 footer{
     height: 78px;
+}
+
+
+body{
+    background-color: rgb(44, 202, 255);
 }

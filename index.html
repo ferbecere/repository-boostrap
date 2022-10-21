@@ -5,7 +5,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
-  <link rel="stylesheet" href="./style.css">
   <link
   href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
   rel="stylesheet"
@@ -17,16 +16,17 @@
   integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
   crossorigin="anonymous"
   ></script>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css"
+  integrity="sha512-5PV92qsds/16vyYIJo3T/As4m2d8b6oWYfoqV+vtizRB6KhF1F9kYzWzQmsO6T3z3QG2Xdhrx7FQ+5R1LiQdUA=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
   <header>
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css"
-    integrity="sha512-5PV92qsds/16vyYIJo3T/As4m2d8b6oWYfoqV+vtizRB6KhF1F9kYzWzQmsO6T3z3QG2Xdhrx7FQ+5R1LiQdUA=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-    />
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">REVERA</a>
@@ -82,7 +82,7 @@
   </div>
 </nav>
 </header>
-<container>
+<section>
   <!--carousel + falta el crossfade, buttons y adaptar a rojo las flechas-->
   <div
   id="carouselExampleCaptions"
@@ -210,8 +210,8 @@ data-bs-slide="next"
 <span class="visually-hidden">Next</span>
 </button>
 </div>
-</container>
-<container>
+</section>
+<section>
   <!--bloque rojo con iconos-->
   <div class="container-lg bg-danger row p-3">
     <!--icono copa-->
@@ -223,6 +223,7 @@ data-bs-slide="next"
         Aenean auctor nulla quis augue dictum, sed sagittis odio varius
       </p>
     </div>
+    <!--icono estrella-->
     <div class="col-4">
       <h5>Web development</h5>
       <p>
@@ -231,9 +232,7 @@ data-bs-slide="next"
         imperdiet tortor, ut pulvinar purus elementum nspendisse at erat
         luctus.
       </p>
-    </div>
-    <!--icono estrella-->
-    
+    </div>  
     <!--icono corazón-->
     <div class="col-4">
       <h5>User interface</h5>
@@ -243,9 +242,9 @@ data-bs-slide="next"
         et sodales. Praesent non enim et magna congue gravida.
       </p>
     </div>
-  </div></container
+  </div></section
   >
-  <container>
+  <section>
     <!--bloque blanco con info y fotos-->
     <h3>LATEST PROJECTS</h3>
     <h4>FEW OF THE LATEST PORTFOLIO ITEMS</h4>
@@ -281,119 +280,124 @@ data-bs-slide="next"
       <div class="row">
         <div class="col">
           <article>
-          <img src="./img/slider-1.jpg" class="col-3" alt="" />
-          <h6>
-            Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam
-          </h6>
-          <p>POSTED ON AUGUST 19, 2013 BY ADMIN</p>
-          <p>
-            Duis tempus leo vitae ipsum viverra, blandit condimentum sapien
-            porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum
-            imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat
-            luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim
-            suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia
-            eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra
-            […]
-          </p>
-        </article>
-        </div>
-        <div class="col">
-                <article>
-          <img src="./img/slider-2.jpg" class="col-3"alt="" />
-          <h6>Falauris sollicitudin quis dolor venenatis facilisis</h6>
-          <p>POSTED ON AUGUST 19, 2013 BY ADMIN</p>
-          <p>
-            Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor
-            ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus
-            interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna
-            ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam
-            erat volutpat. Phasellus fringilla feugiat libero nec volutpat.
-            Maecenas fermentum bibendum […]
-          </p>
-        </article>
-        </div>
-        <div class="col">
-        <article>
-          <img src="./img/slider-3.jpg" class="col-3" alt="" />
-          <h6>Suspendisse ornare, felis feugiat suscipit pharetra</h6>
-          <p>POSTED ON AUGUST 19, 2013 BY ADMIN</p>
-          <p>
-            Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat
-            suscipit pharetra, lorem est viverra odio; tristique tristique diam
-            tellus id tellus. In consectetur aliquet tristique. Curabitur
-            imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris
-            vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc
-            magna at justo. Proin blandit id tellus non pellentesque. Mauris […]
-          </p>
-        </article>
-        </div>
-        <div class="col">
-        <article>
-          <img src="./img/slider-4.jpg" class="col-3" alt="" />
-          <h6>Festibulum purus odio, ornare non posuere</h6>
-          <p>POSTED ON AUGUST 19, 2013 BY ADMIN</p>
-          <p>
-            Aenean quis rhoncus nisl, eget sollicitudin ipsum. Curabitur a
-            elementum purus. Quisque vitae dui at arcu porttitor laoreet ac vitae
-            nibh. Class aptent taciti sociosqu ad litora torquent per conubia
-            nostra, per inceptos himenaeos. Nulla facilisi. Nulla egestas at nunc
-            at volutpat. Nullam sodales at diam vel tempor. Sed pretium, leo vel
-            pellentesque dictum, ligula […]
-          </p>
+            <img src="./img/slider-1.jpg" class="col-3" alt="" />
+            <h6>
+              Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam
+            </h6>
+            <p>POSTED ON AUGUST 19, 2013 BY ADMIN</p>
+            <p>
+              Duis tempus leo vitae ipsum viverra, blandit condimentum sapien
+              porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum
+              imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat
+              luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim
+              suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia
+              eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra
+              […]
+            </p>
           </article>
-          </div>
         </div>
-      </div>
-    </container>
-   
-  <container class="bg-dark bg-opacity-75">
-    <!--bloque negro conquien somos, meta, archives y recent posts-->
-    
-       <div class="container-lg ">
-      <div class="row">
         <div class="col">
-        <div>REVERA</div>
-        <p>
-          Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor
-          nulla quis augue dictum, sed sagittis odio varius? Aliquam nec venenatis
-          turpis. Aenean euismod arcu vel volutpat tristique. In mattis ipsum quis
-          magna feugiat, id tempus metus accumsan.
-        </p>
-      </div>
-      <div class="col">
-        <div>
-          META
-          <a href="#">Log in </a>
-          <a href="#">Entries RSS</a>
-          <a href="#">Comments RSS</a>
-          <a href="#">WordPress.org</a>
+          <article>
+            <img src="./img/slider-2.jpg" class="col-3" alt="" />
+            <h6>Falauris sollicitudin quis dolor venenatis facilisis</h6>
+            <p>POSTED ON AUGUST 19, 2013 BY ADMIN</p>
+            <p>
+              Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor
+              ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus
+              interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna
+              ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam
+              erat volutpat. Phasellus fringilla feugiat libero nec volutpat.
+              Maecenas fermentum bibendum […]
+            </p>
+          </article>
         </div>
-      </div>
-      <div class="col">
-        <div>
-          ARCHIVES
-          <a href="#">August 2013</a>
+        <div class="col">
+          <article>
+            <img src="./img/slider-3.jpg" class="col-3" alt="" />
+            <h6>Suspendisse ornare, felis feugiat suscipit pharetra</h6>
+            <p>POSTED ON AUGUST 19, 2013 BY ADMIN</p>
+            <p>
+              Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat
+              suscipit pharetra, lorem est viverra odio; tristique tristique diam
+              tellus id tellus. In consectetur aliquet tristique. Curabitur
+              imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris
+              vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc
+              magna at justo. Proin blandit id tellus non pellentesque. Mauris […]
+            </p>
+          </article>
         </div>
-      </div>
-      <div class="col">
-        <div>
-          RECENT POSTS
-          <a href="#"
-          >Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam
-        </a>
-        <a href="#">Nunc libero elit, iaculs nec augue non </a>
-        <a href="#">Falauris sollicitudin quis dolor venenatis facilisis </a>
-        <a href="#">Phasellus aliquet iaculis neque accumsan aliquam </a>
-        <a href="#">Vivamus blandit ipsum sed arcu euismod </a>
+        <div class="col">
+          <article>
+            <img src="./img/slider-4.jpg" class="col-3" alt="" />
+            <h6>Festibulum purus odio, ornare non posuere</h6>
+            <p>POSTED ON AUGUST 19, 2013 BY ADMIN</p>
+            <p>
+              Aenean quis rhoncus nisl, eget sollicitudin ipsum. Curabitur a
+              elementum purus. Quisque vitae dui at arcu porttitor laoreet ac vitae
+              nibh. Class aptent taciti sociosqu ad litora torquent per conubia
+              nostra, per inceptos himenaeos. Nulla facilisi. Nulla egestas at nunc
+              at volutpat. Nullam sodales at diam vel tempor. Sed pretium, leo vel
+              pellentesque dictum, ligula […]
+            </p>
+          </article>
+        </div>
       </div>
     </div>
-    </div class="col">
-  </div>
-</container>
+  </section>
+  
+  <section class="preFooter">
+    <!--bloque negro conquien somos, meta, archives y recent posts-->
+    
+    <div class="container-lg text-light">
+      <div class="row">
+        <div class="col">
+          <div>REVERA</div>
+          <p class="footertext">
+            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+            ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor
+            nulla quis augue dictum, sed sagittis odio varius? Aliquam nec venenatis
+            turpis. Aenean euismod arcu vel volutpat tristique. In mattis ipsum quis
+            magna feugiat, id tempus metus accumsan.
+          </p>
+        </div>
+        <div class="col">
+          <div>
+            META
+            <ul class="footerLists">
+              <li><a href="#">Log in </a></li>
+              <li><a href="#">Entries RSS</a></li>
+              <li><a href="#">Comments RSS</a></li>
+              <li><a href="#">WordPress.org</a></li>
+          </ul>
+          </div>
+        </div>
+        <div class="col">
+          <div>
+            ARCHIVES
+            <ul class="footerLists">
+           <li><a href="#">August 2013</a></li>
+          </ul>
+          </div>
+        </div>
+        <div class="col">
+          <div>
+            RECENT POSTS
+            <ul class="footerLists">
+              <li><a href="#">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</a></li>
+              <li><a href="#">Nunc libero elit, iaculs nec augue non </a></li>
+              <li><a href="#">Falauris sollicitudin quis dolor venenatis facilisis </a></li>
+              <li><a href="#">Phasellus aliquet iaculis neque accumsan aliquam </a></li>
+              <li><a href="#">Vivamus blandit ipsum sed arcu euismod </a></li>
+            
+            </ul>
+        </div>
+      </div>
+   </div>
+   </div>
+</section>
 <footer class="bg-dark">
   <p class="text-light bg-dark">
-    Copyright © 2018 revera - Just another demo Sites site. <br />
+    Copyright © 2018 revera - Just another demo Sites site. <br>
     | Revera Theme
   </p>
 </footer>
