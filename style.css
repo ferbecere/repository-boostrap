@@ -1,9 +1,8 @@
 header{
     display:flex;
+    flex-direction: column;
 }
-header .nav{
-    justify-content: center;
-}
+
 
 .preFooter{
     padding: 20px 0px 40px 0px;
@@ -16,8 +15,12 @@ header .nav{
 }
 .footerLists{
     list-style: none;
-    color:#828282
-    
+    color:#828282;
+    padding:0px;
+}
+
+.footerLists li{
+    border-bottom:1px dotted #828282;
 }
 .footerLists a{
     color:#828282;
@@ -30,12 +33,59 @@ header .nav{
     color:#828282;
 }
 
+.latestProjects img{
+    width:auto;
+    height: auto;
+ 
+}
+
+.latestArticles a{
+    text-decoration: none;
+    color:#ed564b;
+}
 
 footer{
     height: 78px;
 }
 
+.caroursel-inner{
+    mask-image: url(./img/overlay.png);
+}
+.overlay{
+    background-image: url(./img/overlay.png);
+}
 
-body{
-    background-color: rgb(44, 202, 255);
+/*
+h4{
+    margin-left:5vw;
+    
+}
+h3{
+    margin-left:5vw;
+}
+
+hr{
+    margin-left:5vw;
+    margin-right:5vw;
+}*/
+
+
+@media (max-with:700px){
+.header{
+    display:flex;
+    flex-direction:column;
+}
+.redSection{
+    display:flex;
+    flex-direction:column;
+}
+.latetsProjects{
+    display:flex;
+    flex-direction:column;
+}
+.latestArticles{
+    display:flex;
+    flex-direction:column;
+}
+
 }
